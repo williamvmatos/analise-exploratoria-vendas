@@ -2,7 +2,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-sns.set(style="whitegrid")
+sns.set_theme(style="whitegrid")
 
 df = pd.read_csv("vendas_rede_lojas.csv")
 print("Dataset carregado com sucesso")
